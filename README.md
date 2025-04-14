@@ -162,7 +162,7 @@ In addition, Cucumber also generates its own reports:
 <div align="left">
     <p><strong>Cucumber HTML Report</strong></p>
     <img src="artefacts/CucumberReport.png" width="700px" alt="Cucumber Report" />
-</div
+</div>
 
 ### Logging
 Logging is handled by Log4j2 for comprehensive monitoring:
