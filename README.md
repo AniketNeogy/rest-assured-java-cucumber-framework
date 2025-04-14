@@ -1,6 +1,6 @@
 # REST Assured Java Cucumber API Testing Framework for PetStore API
 
-A comprehensive, robust, and scalable REST Assured-based BDD framework for testing the [Swagger PetStore API](https://petstore.swagger.io/) using Cucumber.
+A comprehensive, robust, and scalable REST Assured-based BDD framework for testing the [PetStore API](https://petstore.swagger.io/) using Cucumber.
 
 ## Features
 
@@ -159,6 +159,11 @@ In addition, Cucumber also generates its own reports:
 - HTML report: `target/cucumber-reports/cucumber-pretty.html`
 - JSON report: `target/cucumber-reports/CucumberTestReport.json`
 
+<div align="left">
+    <p><strong>Cucumber HTML Report</strong></p>
+    <img src="artefacts/CucumberReport.png" width="700px" alt="Cucumber Report" />
+</div
+
 ### Logging
 Logging is handled by Log4j2 for comprehensive monitoring:
 - **How it Works**: It logs requests, responses, and test events at different levels (e.g., INFO, ERROR). This helps in debugging and tracing issues.
@@ -175,6 +180,21 @@ The Extent Reports have been improved for better readability and functionality. 
 - **Improved Error Reporting**: Errors now feature clearer messages, stack traces in code blocks, and better separation.
 - **Additional System Information**: More details like framework version and environment are included.
 - **Thread Safety**: Enhanced support for parallel test execution to handle concurrent runs effectively.
+
+</br><div align="left">
+    <p><strong>Extent Report - Dashboard View</strong></p>
+    <img src="artefacts/ExtentReport1.png" width="700px" alt="Dashboard View" />
+</div></br>
+
+<div align="left">
+    <p><strong>Extent Report - Test Case View</strong></p>
+    <img src="artefacts/ExtentReport2.png" width="700px" alt="Test Case View" />
+</div></br></br>
+
+<div align="left">
+    <p><strong>Extent Report - Test Step View</strong></p>
+    <img src="artefacts/ExtentReport2.png" width="700px" alt="Test Step View" />
+</div>
 
 ## Design Choices and Patterns
 
