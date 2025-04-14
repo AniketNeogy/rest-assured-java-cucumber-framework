@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.petstore.api</groupId>
-    <artifactId>petstore-api-testing</artifactId>
+    <artifactId>petstore-api-testing-cucumber</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -22,6 +22,7 @@
         <assertj.version>3.24.2</assertj.version>
         <httpclient.version>4.5.13</httpclient.version>
         <httpcore.version>4.4.15</httpcore.version>
+        <cucumber.version>7.2.3</cucumber.version>
     </properties>
 
     <dependencies>
@@ -114,6 +115,18 @@
             <artifactId>assertj-core</artifactId>
             <version>${assertj.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Cucumber -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version> <!-- Use the latest version -->
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber.version}</version> <!-- Use the latest version -->
         </dependency>
     </dependencies>
 
